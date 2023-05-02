@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+  background-image: url("/img/istockphoto-1170650529-612x612.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+	max-width: 800px;
+	margin: 5% auto;
+	padding: 95px;
+	background-color: #ee7777;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+	margin-bottom: 20px;
+	text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.input-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+#tarefa-input {
+	flex-grow: 1;
+	padding: 20px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+}
+
+#add-button {
+	padding: 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	padding: 10px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc;
+}
+
+li.completed {
+	text-decoration: line-through;
+	background-color: #d9d9d9;
+}
+
+li:hover {
+	background-color: #e6e6e6;
+}
+
+.delete-button {
+	float: right;
+	padding: 5px 10px;
+	background-color: #f44336;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.complete-button {
+	float: right;
+	margin-right: 10px;
+	padding: 5px 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+  @media only screen and (max-device-width: 768px) {
+    /* .menu { width:100%; } */
+    }
